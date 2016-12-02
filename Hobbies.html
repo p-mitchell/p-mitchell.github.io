@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+	<title>Peter Mitchell CV Website</title>
+	<meta name="description" content="CV website ">
+	<meta name="author" content="Peter Mitchell">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="stylesheet/base.css">
+	<link rel="stylesheet" href="stylesheet/skeleton.css">
+	<link rel="stylesheet" href="stylesheet/mystyle.css">
+
+	<!--style sheet for social media icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="shortcut icon" href="images/thumbnail.ico">
+	
+</head>
+				<!--page content-->
+<body>
+
+	<div class="header"> <!--start header-->
+		<header class="container"> <!--start container-->
+			
+			<div class="one-thirds column peter"> 	<!--start title-->
+				<a href="index.html" id="title">
+					<img src="images/title2.JPG" alt="website title">
+				</a>
+			</div> 								<!--end title-->
+			
+			<div class="columns offset-by-five">
+				<button id="cv-download" onclick="cvMessage()">Download a copy of my CV</button>
+			</div>
+				
+		</header> <!--end container-->
+	</div> <!-- end header-->
+
+
+	
+	<div class="navigation"> <!--start of the navigation div-->
+		<div class="container" id="nav">
+			<div class="sixteen columns offset-by-three">
+				
+				<ul class="main-nav"> 		<!--start menu bar-->
+					<li><a href="Bio.html">Bio</a></li>
+					<li><a href="Work-Experience.html">Work experience</a>
+						<ul class="dropdown">
+							<li><a href="Work-Experience.html#job1">Donnybrook Fair</a></li>
+							<li><a href="Work-Experience.html#job2">Jules Verne Cafe</a></li>
+						</ul>
+					</li>
+					<li><a href="Projects.html">Projects</a>
+						<ul class="dropdown">
+							<li><a href="Projects.html#project1">System Analysis and Testing</a></li>
+							<li><a href="Projects.html#project2">Information Systems</a></li>
+							<li><a href="Projects.html#project3">OOSD</a></li>
+						</ul>
+					</li>
+					<li><a href="Education.html">Education</a>
+						<ul class="dropdown">
+							<li><a href="Education.html#school1">Primary School</a></li>
+							<li><a href="Education.html#school2">Secondary School</a></li>
+							<li><a href="Education.html#school3">Undergraduate Degree</a></li>
+							<li><a href="Education.html#school4">Postgraduate Degree</a></li>
+						</ul>
+					</li>
+					<li><a href="Hobbies.html">HOBBIES</a></li>
+				</ul> 						<!--end menu bar-->
+				
+				<div class="dropdown2">
+					<button onclick="myFunction()" class="small-menu">&#9776;</button> <!--small menu for reflexive-->
+						<div class="small-content" id="smallDropdown">
+							<a href="Bio.html">Bio</a>
+							<a href="Work-Experience.html">Work Experience</a>
+							<a href="Projects.html">Projects</a>
+							<a href="Education.html">Education</a>
+							<a href="Hobbies.html">Hobbies</a>
+						</div>
+				</div>	
+				
+				<button id="cv-download-small" onclick="cvMessage()">Download a copy of my CV</button>	
+				
+			</div>
+		</div> <!--end container nav-->
+	</div> <!--end navigation div-->
+	
+	
+	
+	<div class="main-body"> <!--start body of page-->
+		<div class="background">
+			<div class="container">		
+				
+				<div class="fourteen columns offset-by-two">
+					<div class="content" id="bio"> 
+						<h2>My Hobbies</h2><br>
+						My favourite sport is basketball. I first started playing during my first year of secondary school, so around 11 years ago.<br> I have had varying levels of success during my school career, with my team making it to at least the quarter finals of the South Dublin, Dublin, and All-Ireland competitions each year, but not winning a trophy since I was in second year.<br><br> 
+						I also play club basketball for UCD Marian Basketball Club.<br> I started playing for them when I was on the U16 and I am currently captain for the senior mens Division 2 team. Again I have had an up and down career, winning the league and cup double while I was a member of the U17's team, and finishing runner-up in the Division 1 cup last year.<br><br> 
+						<a href="http://www.ucdmarian.com/" target="_blank">
+							<img src="images/UCD-Marian.jpg" alt="UCD Marian logo">
+						</a><br><br>
+						Up until the start of this year, when I needed to focus more on my studies, I had been a volunteer basketball coach for the club as well.<br> I first started coaching as part of my Gaisce Award in transition year in secondary school, where I was an assistant coach with the u12's basketball team. After several years as an assistant coach I completed an introduction to coaches course and started coaching the new U11's team.<br>I really enjoyed coaching and helping out with the club and it is definitely something I would like to go back to after I am finished this course.<br><br>
+						<iframe id="video" src="https://www.youtube.com/embed/V91gogOotWM" allowfullscreen>
+						</iframe><br><br>
+						Another sport I am interested in is Snowboarding, I go away almost every winter to different resorts around France and Austria.<br> I am rather injury prone when it comes to snowloarding however, as I have torn ligaments in both my right and left knees one year apart, at the same resort, at almost identical places down the same run. So as a result my mother is refusing to go back to that place in france ever again.<br><br> 
+						Apart from sports I enjoy spending my spare time reading and sailing.
+					</div>
+				</div>
+				
+			</div>
+		</div> <!--end container-->
+	</div> <!--end body of page-->
+	
+	
+	<div class="footer"> <!--start footer-->
+		<div class="container">
+			<div class="sixteen columns footer-content">
+			Send me an email or contact me through any of these social media platforms:
+				<ul>
+					<li class="four columns" id="mail">
+						<div class="mail-me">
+							<form name="mailme"	action="mailto:peterjmitchell32@gmail.com" method="post" onsubmit="return validateEmail();">
+								Your Name: 
+								<input type="text" name="name">
+								Your Email Address: 
+								<input type="email" name="email">
+								Message:
+								<textarea rows="4" cols="10"></textarea>
+								<input type="submit" value="Send">
+								<input type="reset" value="Reset">
+							</form>
+						</div>
+					</li>
+					
+					<li class="two columns" id="facebook">
+						<a class="fa fa-facebook-square" style="font-size:50px"
+						href="https://www.facebook.com" target="_blank"></a>
+					</li>
+					
+					<li class="two columns" id="twitter">
+						<a class="fa fa-twitter-square" style="font-size:50px"
+						href="https://twitter.com" target="_blank"></a>
+					</li>
+					
+					<li class="two columns" id="linkedin">
+						<a class="fa fa-linkedin-square" style="font-size:50px"
+						href="https://www.linkedin.com/in/petermitchell1" target="_blank"></a>
+					</li>
+				</ul>
+			</div>
+		</div> <!--end container-->
+	</div> <!--end footer-->
+
+	
+	
+	<script>
+	
+	/*open dropdown on click*/
+	function myFunction() {
+		document.getElementById("smallDropdown").classList.toggle("show"); 
+	}
+	
+	
+	function cvMessage() {
+		alert("My CV is currently not available for download, please try again soon.");
+	
+	}
+	
+	function validateEmail() {
+		var x = document.forms["mailme"]["email"].value;
+		var atPosition = x.indexOf("@");
+		var dotPosition = x.lastIndexOf(".");
+		if (atPosition<1 || dotPosition<atPosition+2 || dotPosition+2>= x.length) {
+			alert("The email address you have entered is not vaild, please check and try again");
+			return false
+		}
+	}
+	
+	
+	</script>
+</body>
+</html>

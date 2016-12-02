@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+	<title>Peter Mitchell CV Website</title>
+	<meta name="description" content="CV website ">
+	<meta name="author" content="Peter Mitchell">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="stylesheet/base.css">
+	<link rel="stylesheet" href="stylesheet/skeleton.css">
+	<link rel="stylesheet" href="stylesheet/mystyle.css">
+
+	<!--style sheet for social media icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="shortcut icon" href="images/thumbnail.ico">
+	
+</head>
+				<!--page content-->
+<body>
+
+	<div class="header"> <!--start header-->
+		<header class="container"> <!--start container-->
+			
+			<div class="one-thirds column peter"> 	<!--start title-->
+				<a href="index.html" id="title">
+					<img src="images/title2.JPG" alt="website title">
+				</a>
+			</div> 								<!--end title-->
+			
+			<div class="columns offset-by-five">
+				<button id="cv-download" onclick="cvMessage()">Download a copy of my CV</button>
+			</div>
+			
+		</header> <!--end container-->
+	</div> <!-- end header-->
+
+
+	
+	<div class="navigation"> <!--start of the navigation div-->
+		<div class="container" id="nav">
+			<div class="sixteen columns offset-by-three">
+				
+				<ul > 		<!--start menu bar-->
+					<li><a href="Bio.html">Bio</a></li>
+					<li><a href="Work-Experience.html">Work experience</a>
+						<ul class="dropdown">
+							<li><a href="Work-Experience.html#job1">Donnybrook Fair</a></li>
+							<li><a href="Work-Experience.html#job2">Jules Verne Cafe</a></li>
+							<li><a href="Work-Experience.html#job3">Job 3</a></li>
+						</ul>
+					</li>
+					<li><a href="Projects.html">Projects</a>
+						<ul class="dropdown">
+							<li><a href="Projects.html#project1">System Analysis and Testing</a></li>
+							<li><a href="Projects.html#project2">Information Systems</a></li>
+							<li><a href="Projects.html#project3">OOSD</a></li>
+						</ul>
+					</li>
+					<li><a href="Education.html">Education</a>
+						<ul class="dropdown">
+							<li><a href="Education.html#school1">Primary School</a></li>
+							<li><a href="Education.html#school2">Secondary School</a></li>
+							<li><a href="Education.html#school3">Undergraduate Degree</a></li>
+							<li><a href="Education.html#school4">Postgraduate Degree</a></li>
+						</ul>
+					</li>
+					<li><a href="Hobbies.html">HOBBIES</a></li>
+				</ul> 						<!--end menu bar-->
+				
+				<div class="dropdown2">
+					<button onclick="myFunction()" class="small-menu">&#9776;</button> <!--small menu for reflexive-->
+						<div class="small-content" id="smallDropdown">
+							<a href="Bio.html">Bio</a>
+							<a href="Work-Experience.html">Work Experience</a>
+							<a href="Projects.html">Projects</a>
+							<a href="Education.html">Education</a>
+							<a href="Hobbies.html">Hobbies</a>
+						</div>
+				</div>
+				
+				<button id="cv-download-small" onclick="cvMessage()">Download a copy of my CV</button>				
+				
+			</div>
+		</div> <!--end container nav-->
+	</div> <!--end navigation div-->
+	
+	
+	
+	<div class="main-body"> <!--start body of page-->
+		<div class="background">
+			<div class="container">		
+				
+				<div class="fourteen columns offset-by-two">
+					<div class="content"> 
+						<p class="anchor" id="project1">
+							<h2>System Analysis and Testing</h2>
+							The first project I worked on was a group project on for my 'System Analysis and Testing' module.<br>
+							This was a two part project, with the first phase requiring an individual hand up containing analysis of several software systems of a specific narture. I chose food ordering and delivery services, and so analysed all of their available functionality. This included creating Use Case Diagrams for all of the available actions, Activity Diagrams to lay out the steps of each function, and Entity Classes for system operators.<br><br>
+							The second phase for this project was a group element. We were required to work as a team to combine our individual projects, improve upon individual aspects as well as create Test Cases and Sequence Diagrams for more functions of the site. 
+						</p>
+						<p class="anchor" id="project2">
+							<h2>Information Systems</h2>
+							For my 'Infromation Systems' project I was required to assess a Customer Relationship Management company and investigate Database Management Systems.<br><br>
+							I was required to detail different types of database management systems which were availableto the company and suggest onw which was best suited to their company description. I was also required to design an Entity Relationship Diagram to demonstrate how a database for this company would look.
+						</p>
+						<p class="anchor" id="project3">
+							<h2>OOSD</h2>
+							I am in the process of creating a program for my 'Object Oriented Software Design' module.<br> The language we are using for creating our program is Python. Python is a programming language which is considered to be for beginners because it helps you with error correction and other useful features.<br><br>
+							The program we have to design is to calculate the cheapest route between 5 airports factoring in the distance between the locations, the cost of fuel, and the currency exchange rate.<br>
+							This project requires the use of object oriented principles and task management skills we covered throughout the year.
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div> <!--end container-->
+	</div> <!--end body of page-->
+	
+	
+	<div class="footer"> <!--start footer-->
+		<div class="container">
+			<div class="sixteen columns footer-content">
+			Send me an email or contact me through any of these social media platforms:
+				<ul>
+					<li class="four columns" id="mail">
+						<div class="mail-me">
+							<form action="mailto:peterjmitchell32@gmail.com" method="post" enctype="text/plain">
+								Your Name: 
+								<input type="text" name="name">
+								Your Email Address: 
+								<input type="email" name="email">
+								Message:
+								<textarea rows="4" cols="10"></textarea>
+								<input type="submit" value="Send">
+								<input type="reset" value="Reset">
+							</form>
+						</div>
+					</li>
+					
+					<li class="two columns" id="facebook">
+						<a class="fa fa-facebook-square" style="font-size:45px"
+						href="https://www.facebook.com/" target="_blank"></a>
+					</li>
+					
+					<li class="two columns" id="twitter">
+						<a class="fa fa-twitter-square" style="font-size:45px"
+						href="https://twitter.com/" target="_blank"></a>
+					</li>
+					
+					<li class="two columns" id="linkedin">
+						<a class="fa fa-linkedin-square" style="font-size:45px"
+						href="https://www.linkedin.com/in/petermitchell1" target="_blank"></a>
+					</li>
+				</ul>
+			</div>
+		</div> <!--end container-->
+	</div> <!--end footer-->
+
+	
+	
+	<script>
+	
+	/*open dropdown on click*/
+	function myFunction() {
+		document.getElementById("smallDropdown").classList.toggle("show"); 
+	}
+	
+	
+	function cvMessage() {
+		alert("My CV is currently not available for download, please try again soon.");
+	
+	}
+	
+	function validateEmail() {
+		var x = document.forms["mailme"]["email"].value;
+		var atPosition = x.indexOf("@");
+		var dotPosition = x.lastIndexOf(".");
+		if (atPosition<1 || dotPosition<atPosition+2 || dotPosition+2>= x.length) {
+			alert("The email address you have entered is not vaild, please check and try again");
+			return false
+		}
+	}
+	
+	
+	</script>
+	
+	
+</body>
+</html>
